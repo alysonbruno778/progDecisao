@@ -3,4 +3,11 @@ Desenvolver um programa que pergunte um valor inteiro positivo ou negativo, e ex
 deste valor, ou seja, o número lido como sendo positivo
 """
 
-a = int(input("Informe um número inteiro"))
+num = int(input("Informe um valor positivo ou negativo: "))
+
+if (num >= 1):
+    print(f"O módulo do número é: {num}")
+
+else:
+    print(f"O módulo do número é: {num * (-1)}")
+
