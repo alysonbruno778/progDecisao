@@ -2,39 +2,39 @@
 Desenvolver um programa que pergunte 5 números inteiros e identifique o maior número e o menor número.
 """
 
-a = int(input("Informe um número inteiro"))
-b = int(input("Informe outro número inteiro"))
-c = int(input("Informe outro número inteiro"))
-d = int(input("Informe outro número inteiro"))
-e = int(input("Informe outro número inteiro"))
+num1 = int(input("Informe um número inteiro: "))
+num2 = int(input("Informe outro número inteiro: "))
+num3 = int(input("Informe outro número inteiro: "))
+num4 = int(input("Informe outro número inteiro: "))
+num5 = int(input("Informe outro número inteiro: "))
 
-maior = a
+mai = num1
 
-if ( maior < b ):
-    maior = b
+if ( mai < num2 ):
+    mai = num2
 
-if ( maior < c ):
-    maior = c
+if ( mai < num3 ):
+    mai = num3
 
-if ( maior < d ):
-    maior = d
+if ( mai < num4 ):
+    mai = num4
 
-if ( maior < e ):
-    maior = e
+if ( mai < num5 ):
+    mai = num5
 
-menor = a
+men = num1
 
-if (menor < b):
-    menor = b
+if (men > num2):
+    men = num2
 
-if (menor < c):
-    menor = c
+if (men > num3):
+    men = num3
 
-if (menor < d):
-    menor = d
+if (men > num4):
+    men = num4
 
-if (menor < e):
-    menor = e
+if (men > num5):
+    men = num5
 
-print(f"O maior valor inserido foi {maior}")
-print(f"O maior valor inserido foi {menor}")
+print(f"O maior valor inserido foi {mai}")
+print(f"O menor valor inserido foi {men}")
